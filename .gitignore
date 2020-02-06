@@ -19,5 +19,21 @@
 *.tar.gz
 *.rar
 
+.factorypath
+.classpath
+.project
+.settings/
+bin/
+
+# intellij
+*.iml
+.idea/
+
+# ignore any target folders
+target/
+
+# macOS
+.DS_Store
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
